@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TinyJS</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+		<link rel="stylesheet" href="./index.css" />
+		<script src="./lib/tiny.js" defer></script>
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div>
+			<p>TinyJS</p>
+		</div>
+		</nav>
+		<div class="title">
+			<h1>TinyJS</h1>
+			<h2>
+				A small library for empowering <span class="tech" t>${tech}</span>
+			</h2>
+		</div>
+			<div class="content">
+				<div>
+					<div>
+						<h2>Easy to develop for</h2>
+						<p>
+							Empower your site without having to leave HTML using an easy to
+							understand syntax
+						</p>
+					</div>
+					<pre><code t class="language-html">${codesample1}</code></pre>
+				</div>
+
+				<div>
+					<div>
+						<h2>Simple and quick API</h2>
+						<p>
+							Variables are used everywhere, so why make them annoying to use?
+						</p>
+					</div>
+					<pre><code t class="language-js">${codesample2}</code></pre>
+				</div>
+
+				<div>
+					<div>
+						<h2>Two way data binding</h2>
+						<p>Link variables with inputs faster than you could before!</p>
+					</div>
+					<pre><code t class="language-html">${codesample3}</code></pre>
+				</div>
+			</div>
+	</body>
+</html>
